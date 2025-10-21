@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import ContactForm from './ContactForm'
 import ShoppingCartIcon from '../assets/shopping-cart.svg'
+import logoSrc from '/src/assets/logo.png.png';
 
 export default function Nav(){
   const loc = useLocation()
@@ -18,7 +19,7 @@ export default function Nav(){
         <div className='nav-inner'>
           <div className='brand'>
             <div className='logo'>
-              <img src="/src/assets/logo.png.png" alt="Marcellino Logo" width="60" height="60" style={{ objectFit: 'contain', width: '100%', height: '100%' }} />
+              <img src={logoSrc} alt="Marcellino Logo" width="60" height="60" style={{ objectFit: 'contain', width: '100%', height: '100%' }} />
             </div>
             <div>
               <div className='brand-title'>Marcellino</div>
