@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="360" viewBox="0 0 540 360" fill="none">
+  <rect width="540" height="360" rx="16" fill="#fffaf6"/>
+  <g transform="translate(40,40)">
+    <rect x="0" y="0" width="460" height="200" rx="10" fill="#efe9e4"/>
+    <text x="20" y="40" font-family="Playfair Display, serif" font-size="24" fill="#6b3f26">Boutique Marcellino</text>
+  </g>
+</svg>
